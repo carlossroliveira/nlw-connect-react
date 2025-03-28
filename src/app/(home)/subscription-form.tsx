@@ -1,6 +1,6 @@
 "use client";
 
-import { subscribeToEvent } from "@/http/api";
+import { subscribeToEvent } from "../http/api";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { ArrowRight, Mail, User } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
